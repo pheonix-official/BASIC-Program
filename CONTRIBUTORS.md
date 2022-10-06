@@ -15,5 +15,5 @@ Location: Delhi, India <br>
 Github link:  https://github.com/LakshaySK106</p>
 
 <p>Name: Chandana <br>
-Location: Banglore, India <br>
+Location: Bangalore, India <br>
 Github link:  https://github.com/moonpiee</p>
