@@ -4,7 +4,7 @@ int main()
 {
    int num;
    FILE *fptr;
-   fptr = fopen("program.txt","w");
+   fptr = fopen("file.txt","w");
 
    if(fptr == NULL)
    {
