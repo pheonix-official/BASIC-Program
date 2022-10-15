@@ -40,3 +40,6 @@ Github link:  https://github.com/bdipesh3045</p>
 Location: Dharan ,Nepal <br>
 Github link:  https://github.com/Zetahaxx</p>
 
+<p>Name: Akashdeep Singh Kataria <br>
+Location: Punjab, India <br>
+Github link: https://github.com/Akashdeep-k</p>
