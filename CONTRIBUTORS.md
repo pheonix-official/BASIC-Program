@@ -40,3 +40,6 @@ Github link:  https://github.com/bdipesh3045</p>
 Location: Dharan ,Nepal <br>
 Github link:  https://github.com/Zetahaxx</p>
 
+<p>Name: Kartik Gupta <br>
+Location: Delhi, India <br>
+Github link:  https://github.com/CoderKartik-1</p>
