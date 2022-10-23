@@ -1,16 +1,24 @@
 #include <iostream>  
 using namespace std;  
-int main()  
-{  
-int n,sum=0,m;    
-cout<<"Enter a number: ";    
-cin>>n;    
+// summation function to calculate sum of digits
+int Summation(int n)
+{
+int sum=0;
 while(n>0)    
-{    
-m=n%10;    
-sum=sum+m;    
+{ 
+int temp;   
+temp=n%10;    
+sum=sum+temp;    
 n=n/10;    
 }    
-cout<<"Sum is= "<<sum<<endl;    
+return sum;
+}
+
+int main()  
+{  
+int n;    
+cout<<"Enter a number: ";    
+cin>>n; 
+cout<<"Sum of given digits is: "<<Summation(n)<<endl;    
 return 0;  
 }  

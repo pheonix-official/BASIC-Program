@@ -1,21 +1,25 @@
-#include <iostream>  
+#include <iostream> 
+#include<cmath> 
 using namespace std;  
 int main()  
 {  
-  int n, i, m=0, flag=0;  
+  int n,flag=0;  
   cout << "Enter the Number to check Prime: ";  
-  cin >> n;  
-  m=n/2;  
-  for(i = 2; i <= m; i++)  
+  cin >> n;
+  if (n==1) 
+  cout << "Number isn't Prime."<<endl;
+  else{
+  for(int i = 2; i <= sqrt(n); i++)  
   {  
       if(n % i == 0)  
       {  
-          cout<<"Number is not Prime."<<endl;  
+          cout<<"Number isn't Prime."<<endl;  
           flag=1;  
           break;  
       }  
   }  
   if (flag==0)  
-      cout << "Number is Prime."<<endl;  
+      cout << "Number is Prime."<<endl;
+  }  
   return 0;  
 }  

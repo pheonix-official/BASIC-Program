@@ -1,20 +1,27 @@
 #include <iostream>  
-using namespace std;  
+using namespace std; 
+
+void palindrome(int n)
+{
+  int temp=n,sum=0;
+  while(n>0)    
+  { 
+    int r;
+    r=n%10;    
+    sum=(sum*10)+r;    
+    n=n/10;    
+  }    
+  if(temp==sum)    
+    cout<<"Number is Palindrome.";    
+  else    
+    cout<<"Number is not Palindrome."; 
+}
+
 int main()  
 {  
-  int n,r,sum=0,temp;    
+  int n;    
   cout<<"Enter the Number=";    
   cin>>n;    
- temp=n;    
- while(n>0)    
-{    
- r=n%10;    
- sum=(sum*10)+r;    
- n=n/10;    
-}    
-if(temp==sum)    
-cout<<"Number is Palindrome.";    
-else    
-cout<<"Number is not Palindrome.";   
+  palindrome(n);   
   return 0;  
 }  
