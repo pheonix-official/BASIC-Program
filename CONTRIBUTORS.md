@@ -17,9 +17,20 @@ Location: Nepal <br>
 Github link:  https://github:com/meprajwal</p>
 
 <p>Name : Rachan Phuyal <br>
-location : Jhapa , Nepal <br>
-Github link : https://github.com/rachannzz</p>
+location : Jhapa Damak , Nepal <br>
+Github link : (https://github.com/rachannzz)</p>
 
 <p>Name : BhanuPrakash <br>
 location : Sri City, India <br>
 Github link : https://github.com/bhanuprakash16</p>
+
+
+<p>Name: shyam Baral <br>
+Location: Biratnagar <br>
+Github link: (https://github.com/shyambaral)</p>
+
+
+<p>Name: Dipesh Sharma <br>
+Location: Kathmandu, Nepal <br>
+Github link:  https://github.com/bdipesh3045</p>
+
